@@ -1,0 +1,14 @@
+
+
+.container{
+    width:50vw;
+    background: red;
+
+
+}
+
+.inside{
+    width: 100px;
+    background: blue;  
+    
+} 
