@@ -2,7 +2,7 @@
 
 ul{
     border: 1px dotted red;
-    list-style-image: url("icon.png");
+    list-style-image: url("Imagens/icon.png");
     list-style-position: inside;
     background-color: #f3e;
     margin:0;
@@ -11,7 +11,7 @@ ul{
 
 ol{
     border: 1px solid blue;
-    list-style-image: url("fechar.png");
+    list-style-image: url("Imagens/fechar.png");
     list-style-position: inside;
     background-color: #59e;
     margin:0;
