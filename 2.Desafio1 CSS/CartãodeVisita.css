@@ -1,0 +1,102 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.titulo{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.proposto{
+    text-align: center;
+    float: left;
+    margin-left: 150px;;
+    
+}
+
+.resultado{
+    text-align: center;
+    float: right;
+    margin-right: 200px;
+    padding:0;
+    margin: 0;
+}
+
+.background{
+    width: 400px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.font{
+    font-family: 'Raleway', sans-serif;
+}
+
+.conteudo{
+    background-image:url("Imagens/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 200px;  
+    padding: 0;
+    margin: 0;
+    margin-right: 180px;  
+}
+
+.conteudo1{
+    list-style-image: url("Imagens/Insta.png");
+    
+}
+
+.conteudo2{
+    list-style-image: url("Imagens/Twitter.png");
+}
+
+.conteudo3{
+    list-style-image: url("Imagens/Youtube.png");
+}
+
+.nome{
+    color: black;
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.lista{
+    padding: 0;
+    padding-top: 0;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+.lista1{
+    list-style-image: url("Imagens/Insta.png");
+    list-style-position: inside;
+    color: black;
+}
+
+.lista2{
+    list-style-image: url("Imagens/Twitter.png");
+    list-style-position: inside;
+    color: black;
+}
+
+.lista3{
+    list-style-image:url("Imagens/Youtube.png");
+    list-style-position: inside;
+    color: black;
+}
+
+.fontresultado{
+    color: black;
+    
+}
