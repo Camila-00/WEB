@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Position</title>
+    <style>
+        body {
+            font-size: 1.2rem;
+        }
+
+        .static{
+             position: static;   /*Não muda mesmo com width e height */
+        }
+
+        .relative{
+            position: relative; /*Pode mudar se alterar o width e o height... */
+            left: -20px;
+        }
+
+        .fixed{
+            position: fixed;   /*Fixo em relação à janela*/
+            left: 20px;        /*Essa medida não terá efeito! */
+        }
+
+        .absolute{
+            position: absolute;
+        }
+
+        .sticky{
+            position: sticky;
+            top:0;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        .retangulo{
+            width: 200px;
+            height: 500px;
+            margin-top: 10px;
+            overflow: auto;
+        }
+
+        .bg-blue {
+            background: blue;
+        }
+
+        .bg-red {
+            background: red;
+        }
+
+        .bg-green{
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="quadrado bg-blue static">
+
+    </div>
+
+    <div class="quadrado bg-red absolute">
+
+    </div>
+
+    <div class="retangulo">
+
+    </div>
+
+    <div class="retangulo">
+
+    </div>
+
+    <div class="retangulo">
+
+    </div>
+
+    <div class="bg-blue retangulo">
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-green sticky"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+
+    </div>
+
+
+</body>
+
+</html>
