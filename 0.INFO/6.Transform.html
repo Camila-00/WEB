@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line-Height</title>
+    <style>
+        body {
+            font-size: 1.2rem;
+        }
+
+        .card {
+            position: relative;
+            float: left;
+            width: 400px;
+            height: 200px;
+            border: 2px solid green;
+            text-align: center;
+        }
+
+        .c1 {
+            line-height: 200px;
+        }
+
+        .c2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="c1">
+            Camila Isabela
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="c2">
+            Camila Isabela
+        </div>
+    </div>
+
+</body>
+
+</html>

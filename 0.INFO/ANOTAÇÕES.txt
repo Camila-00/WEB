@@ -1,0 +1,12 @@
+
+ANOTAÇÕES IMPORTANTES!!!
+
+LINE HEIGHT: permite que todas as propriedades internas acompanhem as propriedades externas, incluindo posicionamento do texto, background color, margins, paddings, etc. Porém, tem que saber o height externo, caso contrário não funciona. Se optar por usar o height 100% o mesmo não ocorre. 
+
+TRANSFORM: Utilizando transform com translate X ou Y, os dois não funcionam juntos. Correto: transform: translate(-50%, -50%).
+
+CLEAR: limpa formatações do float. 
+
+DISPLAY's e FLOAT's: Não misture os dois. Se utilizar float, foque nele. 
+
+LAYOUT RESPONSIVO: <meta name="viewport" content="width=device-width, initial-scale=1.0">
