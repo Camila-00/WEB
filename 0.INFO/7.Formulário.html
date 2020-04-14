@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        .teste{
+            border: solid 3px rgb(167, 47, 47);
+            width: 300px;
+            height: 30px;
+            border-radius: 15%;
+            background-color: antiquewhite;
+        }
+
+        ::placeholder{
+            color: blue;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <br><br>
+    <form  method="POST" action="/cadastro">
+        <input class="teste" type="text" name="E-mail" placeholder="Insira seu E-mail">
+        <input type="text" name="Nome" placeholder="Insira seu nome">
+        <input type="submit" name="Enviar">
+    </form><br><br>
+    
+    <form method="POST" action="/cadastro">    
+        <input type="password" name="Senha" placeholder="Insira sua senha">
+        <input type="submit" name="Enviar">
+    </form><br><br>
+
+    <form method="GET" action="/cadastro">
+        <input type="checkbox" name="Curso" value="curso1">React <br>
+        <input type="checkbox" name="Curso" value="curso2">Javascript <br>
+        <input type="checkbox" name="Curso" value="curso3">Go lang <br>
+        <input type="checkbox" name="Curso" value="curso4">Python <br>
+        <input type="submit" name="Enviar">  
+        <input type="reset" name="Redefinir">  <!--O nome entrou sozinho por padrão. Para mudar use "value"-->   
+    </form><br><br>
+
+    <form method="GET" action="/cadastro">
+        <input type="radio" name="Gênero" value="Masculino" checked>Masculino
+        <input type="radio" name="Gênero" value="Feminino">Feminino
+        <input type="submit" name="Enviar">
+    </form>
+
+    
+
+    
+</body>
+</html>

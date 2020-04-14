@@ -10,3 +10,6 @@ CLEAR: limpa formatações do float.
 DISPLAY's e FLOAT's: Não misture os dois. Se utilizar float, foque nele. 
 
 LAYOUT RESPONSIVO: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+POST: esconder dados da url.
+GET: como exemplo o youtube, é necessário receber quais dados serão recebidos, por isso o uso de get.
