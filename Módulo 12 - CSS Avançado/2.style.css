@@ -1,0 +1,43 @@
+
+.container {
+    color: white;
+    display: grid;
+    padding: 10px;
+    background-color: gray;
+
+    grid-template: 100px 100px / 1fr 2fr 1fr;
+    grid-gap: 15px; 
+
+    /* Alinhamento dos itens em relação ao espaço da grid que o contém */
+    
+    justify-items: center;   /*Alinhamento horizontal*/
+    /* align-items: center;   Alinhamento vertical*/
+    
+
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.boxes {
+    width: 100%;
+    height: 100%;   
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: green;
+}
+
+

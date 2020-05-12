@@ -1,0 +1,31 @@
+
+.container {
+    color: white;
+    display: grid;
+    padding: 10px;
+    background-color: gray;
+
+    grid-template: auto auto / auto auto auto;
+    grid-gap: 10px; 
+    /* Pode usar grid-gap-row e grid-gap-column */
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: green;
+}
+
