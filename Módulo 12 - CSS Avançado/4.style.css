@@ -4,6 +4,8 @@
     display: grid;
     padding: 10px;
     background-color: gray;
+    grid-gap:10px;
+    
 
     grid-template-areas: "a2 a2 a2 a2 a2 a2"
                          "a1 a1 a3 a3 a3 a3"
@@ -16,7 +18,7 @@
 }
 
 .box2 {
-    background-color: blue;
+    background-color: blue; 
 }
 
 .box3 {
@@ -45,6 +47,11 @@
 
 .item6 {
     grid-area: a6;
+}
+
+img {
+    width: 100%; 
+    height: auto;   
 }
 
 

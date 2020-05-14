@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/html.png" type="image/x-icon">
+    <title>Contato</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+            color: whitesmoke;
+            font-family: monospace;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        .formulario,
+        h2,
+        h1 {
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        #assunto {
+            margin-bottom: 20px;
+            border-radius: 20px;
+            width: 150px;
+        }
+
+        #texto {
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Formulário de contato utilizando o "text-area"</h1>
+
+    <form method="get" action="" class="formulario">
+        <!--Para que serve o action?-->
+        <input type="text" name="Assunto" id="assunto"> <br>
+        <!--Assunto do contato-->
+        <textarea name="Mensagem" id="texto" cols="50" rows="10"></textarea> <!-- Texto da mensagem -->
+
+
+
+    </form>
+
+    <h2>Se quiser saber mais, clique <a
+            style="text-decoration: none; color: crimson; font-weight: bolder; font-size: larger;"
+            href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/textarea " target="_blank">aqui.</a> </h2>
+
+</body>
+
+</html>
