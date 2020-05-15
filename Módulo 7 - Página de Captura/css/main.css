@@ -60,6 +60,7 @@ input[type="submit"]{
     color: white;
     background-color:#48c5ce;
     font-weight: bold;
+    cursor: pointer;
 }
 
 select{

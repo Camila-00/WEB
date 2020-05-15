@@ -4,25 +4,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/css.png" type="image/x-icon">
     <title>Overflow</title>
     <style>
-        #container {
-            color: yellow;
+        body {
+            margin: 0;
+            padding: 0;
+            color: black;
+            font-weight: bold;
+            font-family: monospace;
+        }
+
+
+
+        .container {
+            margin-top: 10%;
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+        }
+
+        #container1 {
+
+            background: blue;
+            width: 300px;
+            height: 100px;
+            overflow: hidden;
+            /* O excesso não aparece */
+        }
+
+        #container2 {
+            color: black;
             background: blue;
             width: 300px;
             height: 100px;
             overflow: auto;
+            /* Escolha o scroll visível */
         }
-        
+
+        #container3 {
+            color: black;
+            background: blue;
+            width: 300px;
+            height: 100px;
+            overflow: visible;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2{
+            margin-top: 15%;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: crimson;
+        }
     </style>
 </head>
 
 <body>
-    <div id="container">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nihil quisquam et sapiente eaque, natus
-        voluptas rerum officia repudiandae asperiores. Impedit illum voluptates debitis similique ipsa. Natus magni dicta
-        reprehenderit!        
+
+    <h1>A propriedade OVERFLOW</h1>
+
+    <div class="container">
+
+        <div id="container1">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nihil quisquam et sapiente eaque,
+            natus
+            voluptas rerum officia repudiandae asperiores. Impedit illum voluptates debitis similique ipsa. Natus magni
+            dicta
+            reprehenderit!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nihil quisquam et sapiente eaque,
+            natus
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nihil quisquam et sapiente eaque,
+            natus
+        </div>
+
+        <div id="container2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nihil quisquam et sapiente eaque,
+            natus
+            voluptas rerum officia repudiandae asperiores. Impedit illum voluptates debitis similique ipsa. Natus magni
+            dicta
+            reprehenderit!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nihil quisquam et sapiente eaque,
+            natus
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nihil quisquam et sapiente eaque,
+            natus
+        </div>
+
+        <div id="container3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nihil quisquam et sapiente eaque,
+            natus
+            voluptas rerum officia repudiandae asperiores. Impedit illum voluptates debitis similique ipsa. Natus magni
+            dicta
+            reprehenderit!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nihil quisquam et sapiente eaque,
+            natus
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nihil quisquam et sapiente eaque,
+            natus
+        </div>
     </div>
+    <h2>Se quiser saber mais, clique <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/overflow"
+            target="_blank">aqui</a>.</h2>
+
+
 </body>
 
 </html>
