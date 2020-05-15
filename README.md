@@ -1,4 +1,4 @@
-# :blueheart: :computer: Curso de Programação WEB :rocket:
+# :blue-heart: :computer: Curso de Programação WEB :rocket:
 
   - HTML5 + CSS3 + Javascript + Firebase + Angular + React
 
