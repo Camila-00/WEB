@@ -99,5 +99,50 @@ footer{
     font-size: 24px;
 }
 
+@media screen and (max-width:500px) {
+
+    section{
+        padding: 10px;
+        background-image: url(../img/people.jpg);
+        /* background-size: auto, auto; */
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .formcontainer{
+        max-width: 180px;
+        justify-content: center;        
+    }
+
+    footer{
+        display: block;
+        background-color: #202121;
+        text-align:center ;        
+        margin: 0;
+        justify-content: center;
+    }
+
+    .description{
+        display: block;
+        justify-content: center;
+        margin-top: 5%;
+        min-width: 100%;
+        color: white;
+        margin-left: 0; 
+        text-align: center;      
+    }
+
+    .description  h3{       
+        display: block;
+        text-align: center;        
+    }
+
+    /* PAREI DE TENTAR RESPONSIVIDADE AQUI. TENTAR DEPOIS!! */
+
+}
+
+
 
 

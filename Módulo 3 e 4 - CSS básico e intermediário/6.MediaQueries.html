@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/css.png" type="image/x-icon">
+    <title>MediaQueries</title>
+    <style>
+
+        body{
+            margin:0;
+            padding: 0;
+        }
+
+        .header{
+            background: #5c57a4;
+            margin: auto;
+            padding: 15px;
+            width: 80%;
+            font-size: 18px;
+            overflow: hidden;
+        }
+
+        .menu{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            float: right;
+            
+        }
+
+        li{
+            /* display: inline-block;  ou float left, dá no mesmo!*/
+            float: left;
+            color: white;
+            margin-left: 15px;
+        }
+
+        .logo{
+            float: left;
+            color: white;
+        }
+
+        @media screen and (max-width: 700px) {
+            
+            .header{
+                background: gray;
+            }
+
+        }
+
+        @media screen and (max-width: 500px) {
+            
+            .header{
+                background: red;
+            }
+
+
+            .logo{
+                float: none;
+                text-align: center;
+            }
+
+            .menu{
+                margin-top: 20px;
+                float: none;
+                text-align: center;
+                
+            }
+
+            li{
+                float: none;
+                margin-bottom: 5px;
+                padding: 10px;  
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            Logo
+        </div>
+        <ul class="menu">
+            <li>Home</li>
+            <li>Cursos</li>
+            <li>Contato</li><li>Escritórios</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
