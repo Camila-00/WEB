@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(71, 94, 94, 0.712);
+    font-family: 'Segoe UI';   
+}
+
+.header {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 0;
+    min-width: 50vw;    
+}
+
+.container {
+    margin: 0 5%;
+    padding: 2%;
+    min-width: 75%;
+    font-weight: 400;
+}
+
+
+

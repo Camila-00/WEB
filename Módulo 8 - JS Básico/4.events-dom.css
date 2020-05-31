@@ -1,0 +1,26 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 25vh;
+    text-align: center;
+    
+}
+
+img {
+    padding: 0;
+    width: 25vw;    
+    margin-bottom: 5vh;
+    
+}
+
+.button {
+    width: 10vw;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: cornflowerblue;
+    color: aliceblue;  
+    text-align: center;
+    margin-left: 44.2vw;  
+    
+}
