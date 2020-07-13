@@ -14,8 +14,6 @@ function mudarCor() {
     setTimeout(trocarCor, 3000)
 }
 
-
-
 var numero = 0;
 var intervalo;
 function contagem() {
