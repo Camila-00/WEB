@@ -2,7 +2,7 @@
 
 let a = {
     nome: "Ígor",
-    nota: 8.5
+    nota: 8.5 
 };
 
 let b = JSON.stringify(a);
