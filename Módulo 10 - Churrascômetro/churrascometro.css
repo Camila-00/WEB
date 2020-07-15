@@ -1,0 +1,58 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input:focus, button:focus {
+    /* Retirar as bordas internas no focus dos inputs */
+     outline: 0;
+} 
+
+.container {
+    max-width: 40vw;
+    margin: auto;
+    background-color: rgba(165, 42, 42, 0.767);
+    padding: 3vw;
+    border-radius: 3vw;
+    text-align: center;  
+    margin-top: 10%;
+}
+
+input {
+    width: 100%;
+    display: block;
+    padding: .4vw;
+    box-sizing: border-box;
+    margin-bottom: 2vh;
+    border-radius: 1.5vw;
+    text-align: center;
+    border: black 2px solid;
+}
+
+h1 {
+    color: rgb(226, 186, 8);
+    margin-bottom: 2vh;    
+}
+
+button {
+    width: 50%;
+    margin-top: 3vh;
+    font-weight: bold;
+    padding: .5vw;
+    border-radius: 1.5vw;
+    border: black 2px solid;
+}
+
+@media (max-width:360px) {
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    button {
+        margin-top: 0;
+    }
+
+}
